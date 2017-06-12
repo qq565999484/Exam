@@ -26,6 +26,8 @@
     MyExamViewController *myExamVC = [[MyExamViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:myExamVC];
     self.window.rootViewController = nav;
+    
+    [NSThread sleepForTimeInterval:3];
     return YES;
 }
 
